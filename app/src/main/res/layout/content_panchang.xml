@@ -1,0 +1,1240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="calendar.priyank.craftystudio.hindicalendar.Panchang"
+    tools:showIn="@layout/app_bar_panchang">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="4dp">
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="*">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_span="2"
+                        android:text="Ujjain ,India"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_span="2"
+                        android:text="Purnima ,Shukla Paksha and Jyeshta"
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        app:cardBackgroundColor="#FF5722"
+                        app:cardCornerRadius="0dp"
+                        app:cardElevation="1dp"
+
+                        >
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Tithi"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Purnima"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="18:39:18"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Paksha"
+                            android:textAlignment="center"
+
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Shukla"
+                            android:textAlignment="center"
+
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Nakshatra"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Jyeshta"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="29:11:00"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Yoga"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Sandhya"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="25:40:33*"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Karana"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Bhava"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="18:39:19"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Vaar"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Shukravara"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+                    </TableRow>
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        app:cardCornerRadius="0dp"
+
+                        app:cardElevation="10dp">
+
+                    </android.support.v7.widget.CardView>
+
+
+                </TableLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="4dp">
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="*">
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        app:cardBackgroundColor="#FF5722"
+                        app:cardCornerRadius="0dp"
+                        app:cardElevation="1dp"
+
+                        >
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Month"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Jyashta"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="18:39:18"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Month (purnima)"
+                            android:textAlignment="center"
+
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Jyeshta"
+                            android:textAlignment="center"
+
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Moon Zodiac"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Vrishchika"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="till 29:11:00"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Sun"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Vrishabha"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Ritu"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="4"
+                            android:text="Grishma (Summer)"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Ayana"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Uttarayana"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Samavatsara"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="4"
+                            android:text="Hevilambi)"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Samavatsara (North )"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Uttarayana"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Saka Samvat"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="4"
+                            android:text="1939 Saka Samvat"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Vikram Samvat"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="2074 Vikram Samvat"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+                    </TableRow>
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        app:cardCornerRadius="0dp"
+
+                        app:cardElevation="10dp">
+
+                    </android.support.v7.widget.CardView>
+
+
+                </TableLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="4dp">
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="*">
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        app:cardBackgroundColor="#FF5722"
+                        app:cardCornerRadius="0dp"
+                        app:cardElevation="1dp"
+
+                        >
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Solar Tithi"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="27"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Solar Month (Experimental)"
+                            android:textAlignment="center"
+
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Jyeshta"
+                            android:textAlignment="center"
+
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+                    </TableRow>
+
+
+
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        app:cardCornerRadius="0dp"
+
+                        app:cardElevation="10dp">
+
+                    </android.support.v7.widget.CardView>
+
+
+                </TableLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="4dp">
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="*">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_span="2"
+                        android:text="Ujjain ,India"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        app:cardBackgroundColor="#FF5722"
+                        app:cardCornerRadius="0dp"
+                        app:cardElevation="1dp"
+
+                        >
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Sunrise"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="05:41:46"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Sunset"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="19:21:46"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Day Duration"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="13:29:00"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Night Duration"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="10:41:46"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Moon Set"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="06:08:42"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Moon rise"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="19:01:09"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+
+
+                    </TableRow>
+
+
+
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        app:cardCornerRadius="0dp"
+
+                        app:cardElevation="10dp">
+
+                    </android.support.v7.widget.CardView>
+
+
+                </TableLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="4dp">
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="*">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_span="2"
+                        android:text="At Sunrise"
+                        android:textColor="@color/colorPrimary"
+
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        app:cardBackgroundColor="#FF5722"
+                        app:cardCornerRadius="0dp"
+                        app:cardElevation="1dp"
+
+                        >
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Lagna"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Vrishabha"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Surya Nakshatra"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Mrigashisha"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Chand NakShatra"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_span="2"
+                            android:text="Jyeshta"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+
+                            />
+
+
+
+
+                    </TableRow>
+
+
+
+
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        app:cardCornerRadius="0dp"
+
+                        app:cardElevation="10dp">
+
+                    </android.support.v7.widget.CardView>
+
+
+                </TableLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:cardBackgroundColor="#FF5722"
+        app:cardElevation="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:onClick="openCalendarDialog"
+            android:text="12/08/2017"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
